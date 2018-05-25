@@ -2,7 +2,7 @@ var mongoose=require('mongoose');
 var Schema = mongoose.Schema;
 
 var mongoDB= 'mongodb://127.0.0.1/Notification';
-mongoose.connect( process.env.DBSERVER ||mongoDB, { useMongoClient: true });
+mongoose.connect( process.env.MONGOLAB.URI ||mongoDB, { useMongoClient: true });
 
 
 //---- here the shema that we should write -----
