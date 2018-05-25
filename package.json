@@ -1,0 +1,36 @@
+{
+  "name": "Notification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Notification-RBK.git"
+  },
+  "author": "Hanan majali and sarah yousef",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Notification-RBK/issues"
+  },
+  "homepage": "https://github.com/Notification-RBK#readme",
+  "dependencies": {
+    "simple-web-notification": "latest",
+    "bcrypt-nodejs": "0.0.3",
+    "bson": "^1.0.4",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.1",
+    "express-session": "^1.15.6",
+    "kareem": "^1.5.0",
+    "mongoose": "^4.12.0",
+    "morgan": "^1.9.0",
+    "mpath": "^0.3.0",
+    "regexp-clone": "0.0.1",
+    "resolve-from": "^4.0.0",
+    "sliced": "^1.0.1",
+    "angular": "~1",
+    "angular-web-notification": "^1.2.27"
+  }
+}

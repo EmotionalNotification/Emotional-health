@@ -1,0 +1,28 @@
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"> -->
+  <div class="modal-dialog" role="document" ng-controller='exampleForm'>
+    <div class="modal-content">
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label"> <strong> Your name: </strong></label>
+            <input type="text" class="form-control" id="recipient-name" ng-model='user.name'>
+          </div>
+                     <label for="recipient-name" class="col-form-label"><strong> How do you feel  today? </strong> </label>
+                     {{user}} 
+          <div class="form-group">
+          <img src="imgs/5.png" ng-model='happy' ng-click="click(5)" >
+          <img src="imgs/3.png" ng-model='fine' ng-click="click(4)">
+          <img src="imgs/33.png" ng-model='meh' ng-click="click(3)">
+          <img src="imgs/2.png" ng-model='down' ng-click="click(2)">
+          <img src="imgs/1.png" ng-model='depressed' ng-click="click(1)">
+
+
+          </div>
+        </form>
+      </div>
+      <div  class="modal-footer" >
+        <button type="button" class="btn btn-primary" ng-click="call(user.name,user.status)">Submit</button>
+      </div>
+    </div>
+  </div>
+<!-- </div> -->
