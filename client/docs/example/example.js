@@ -93,7 +93,8 @@ window.angular.module('exampleApp', [
 
                     var now = new Date();
                     console.log(now.getHours())
-                    if ( (now.getHours() === 11 && now.getMinutes()===0) || (now.getHours() === 15 && now.getMinutes()===0 ) ) {
+                    if(now.getHours() === 14){
+                    // if ( (now.getHours() === 11 && now.getMinutes()===0) || (now.getHours() === 15 && now.getMinutes()===0 ) ) {
                       hanan();
                   }
                      now = new Date();                  // allow for time passing

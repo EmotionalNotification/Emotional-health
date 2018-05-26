@@ -2,7 +2,7 @@
 <html data-ng-app="exampleApp">
 
     <head>
-        <title>Angular Web Notification Example</title>
+        <title> Emotional Health </title>
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
         <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
         <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css" />
@@ -22,27 +22,101 @@
 
         <link href="example/example.css" rel="stylesheet" />
 
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600|Raleway:600,300|Josefin+Slab:400,700,600italic,600,400italic' rel='stylesheet' type='text/css'>
+
+
+
+
     </head>
 
     <body>
 
- 
-        <!-- <form class="notification-form" ng-controller="exampleForm"> -->
-           <!--  <div class="form-group">
-                <label for="title">Title</label>
-                <input type="text" class="form-control" id="title" placeholder="Notification Title" ng-model="title" />
-            </div> -->
-          <!--   <div class="form-group">
-                <label for="message">Notification Text</label>
-                <textarea class="form-control" rows="3" id="message" placeholder="Notification Text" ng-model="text"></textarea>
-            </div> -->
-
-      <!--       <button type="button" class="show-button btn btn-primary" notification-title="title" notification-text="text">Show Notification</button>
-        </form> -->
-
-        <div ng-controller="exampleForm">
-                 <button type="button" class="show-button btn btn-primary" notification-title="title" notification-text="text">Show Notification</button>
+ <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="index.html">Emotional Health Notifications</a>
         </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav> 
+<br> <br> <br> <br>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div >
+            </h2>
+            <div class="heading-title text-center">
+                <h3 class="text-uppercase">what is this website about ? </h3>
+                <p style="font-size: 20px"> This website will send a notification to the students asking them to let us know about their emotional health status. Notifictions will be sent automaticlly at 11:00 AM and 3:00 PM. It's built with MEAN stack.
+                 <a href='https://github.com/Notification-RBK'> click here to see the repo </a>
+                 <br>
+             </p>
+         </div>
+     </div>
+     </div>
+     </div>
+     </div>
+
+
+     <hr>
+
+     <center><div class="post-preview">
+        <h2 class="post-title">
+           Quick view  
+       </h2>
+       <br>
+       <img style="width: 50%" src="imgs/note.jpg"> 
+       <hr>
+       <p class="text-uppercase"> 1. Students will get this notification at 11:00 PM and 3:00 PM, then we'll measure the avarege of their emotional health statuses. </p>
+
+       <img style="width: 50%" src="imgs/form.jpg"> 
+        <hr>
+       <p class="text-uppercase"> 2. when they click on the notification they'll get this form which represent the emotional health levels from 1 - 5 . (1 is the lowest)</p>
+
+
+
+   </div>
+   </center>
+
+   <hr>
+
+
+   <center><footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+                    <p class="copyright text-muted">Copyright &copy; RBK-Notifications</p>
+                </div>
+            </div>
+        </div>
+    </footer> </center>
+
+ 
+   
     </body>
 
 </html>
