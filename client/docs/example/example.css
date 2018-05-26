@@ -6,3 +6,7 @@
 img{
 	width: 70px;
 }
+
+img:hover {
+	cursor: pointer;
+}
